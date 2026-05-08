@@ -81,3 +81,11 @@ app.post("/search", async (req, res) => {
             });
         });
 });
+
+
+
+/////////////////////////
+/// Test
+app.get("/test", (req, res) => {
+    res.render("test");
+});
